@@ -14,4 +14,4 @@ Contains a mix of code that was used ad-hoc for initial data exploration
 Contains the functions used in the correlation analysis as well as some other functions used on an ad-hoc basis during initial exploration. Warning: It's messy
 
 ## Some datasets
-The datasets were used in the correlation analysis
+The datasets were used in the correlation analysis. 
