@@ -41,3 +41,63 @@ male_groups_df = df_koen_alder[df_koen_alder["Group"].isin(male_groups)]
 male_gaussian_matrix_top, male_gaussian_matrix_bottom, \
     male_nongaussian_matrix_top, male_nongaussian_matrix_bottom = \
         metoder.run_correlation_analysis(male_groups_df, "Score", "Score")  
+
+if len(brancher_gaussian_matrix_top) > 0:
+    print("Positive correlations between Gaussian stress-related variables and "
+          "leadership-related variables across occupations")
+    print(brancher_gaussian_matrix_top)
+
+if len(brancher_gaussian_matrix_bottom) > 0:
+    print("Negative correlations between Gaussian stress-related variables"
+          " and leadership-related variables across occupations")
+    print(brancher_gaussian_matrix_bottom)
+
+if len(brancher_nongaussian_matrix_top) > 0:
+    print("Positive correlations between non-Gaussian stress-related variables and "
+          "leadership-related variables across occupations")
+    print(brancher_nongaussian_matrix_top)
+    
+if len(brancher_nongaussian_matrix_bottom) > 0:
+    print("Negative correlations between non-Gaussian stress-related variables "
+          "and leadership-related variables across occupations")
+    print(brancher_nongaussian_matrix_bottom)
+    
+if len(female_gaussian_matrix_top) > 0:
+    print("Positive correlations between Gaussian stress-related variables "
+          "and leadership-related variables across female groups")
+    print(female_gaussian_matrix_top)  
+
+if len(female_gaussian_matrix_bottom) > 0:
+    print("Negative correlations between Gaussian stress-related variables "
+          "and leadership-related variables across female groups")
+    print(female_gaussian_matrix_bottom)  
+    
+if len(female_nongaussian_matrix_top) > 0:
+    print("Positive correlations between non-Gaussian stress-related variables "
+          "and leadership-related variables across female groups")
+    print(female_nongaussian_matrix_top)  
+
+if len(female_nongaussian_matrix_bottom) > 0:
+    print("Negative correlations between non-Gaussian stress-related variables "
+          "and leadership-related variables across female groups")
+    print(female_nongaussian_matrix_bottom)
+
+if len(male_gaussian_matrix_top) > 0:
+    print("Positive correlations between Gaussian stress-related variables "
+          "and leadership-related variables across male groups")
+    print(male_gaussian_matrix_top)
+    
+if len(male_gaussian_matrix_bottom) > 0:
+    print("Negative correlations between Gaussian stress-related variables "
+          "and leadership-related variables across male groups")
+    print(male_gaussian_matrix_bottom)
+    
+if len(male_nongaussian_matrix_top) > 0:
+    print("Positive correlations between non-Gaussian stress-related variables "
+          "and leadership-related variables across male groups")
+    print(male_nongaussian_matrix_top)
+
+if len(male_nongaussian_matrix_bottom) > 0:
+    print("Negative correlations between non-Gaussian stress-related variables "
+          "and leadership-related variables across male groups")
+    print(male_nongaussian_matrix_bottom)
