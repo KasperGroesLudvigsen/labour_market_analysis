@@ -7,11 +7,11 @@ This is the file you should run. It primarily executes a function, metoder.run_c
 ## test.py
 Contains a number of unit tests
 
-## exploration.py
-Contains a mix of code that was used ad-hoc for initial data exploration
-
 ## metoder.py
-Contains the functions used in the correlation analysis as well as some other functions used on an ad-hoc basis during initial exploration. Warning: It's messy
+Contains the functions used in the correlation analysis as well as some other functions used on an ad-hoc basis during initial exploration. 
+
+## exploration.py
+Contains a mix of code that was used ad-hoc for initial data exploration. Warning: It's messy
 
 ## Some datasets
 The datasets were used in the correlation analysis. 
